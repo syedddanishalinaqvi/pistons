@@ -1,6 +1,3 @@
-body{
-  overflow-x: hidden;
-}
 .position{
     position: sticky;
     z-index: 1;

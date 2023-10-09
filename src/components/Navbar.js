@@ -30,20 +30,20 @@ const Navbar = () => {
     return (
         <>
             <div className="position">
-                <div class="alert-nav">
+                <div className="alert-nav">
                     <p>FREE SHIPPING ON ALL ORDERS</p>
                 </div>
-                <div class="nav">
-                    <a class="brand-name" href="/">PISTONS</a>
-                    <div class="items" id="items">
+                <div className="nav">
+                    <a className="brand-name" href="/">PISTONS</a>
+                    <div className="items" id="items">
                         <a href="/">NEW</a>
                         <a href="/">BRANDS</a>
                         <a href="/">COLLECTIONS</a>
                         <a href="/">ACCESSORIES</a>
                         <a onClick={handleClick} href="/">ABOUT</a>
                     </div>
-                    <div class="cart-search">
-                        <a className='position-relative' href="/"><img src={cart} alt="cart" /><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black">
+                    <div className="cart-search">
+                        <a className='position-relative' href="/"><img src={cart} alt="cart" /><span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black">
                             0
                         </span>
                         </a>
@@ -61,21 +61,21 @@ const Navbar = () => {
 
                 </div>
             </div>
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body d-flex justify-content-end">
-                            <input class="me-5 border border-black" type="text" />
-                            <button type="button" class="btn btn-dark search">Search</button>
+                        <div className="modal-body d-flex justify-content-end">
+                            <input className="me-5 border border-black" type="text" />
+                            <button type="button" className="btn btn-dark search">Search</button>
                         </div>
                     </div>
                 </div>
             </div>
             {isMenuOpen && (
-                    <div className="mobile-menu">
+                    <div classNameName="mobile-menu">
                         <a href="/">NEW</a>
                         <a href="/">BRANDS</a>
                         <a href="/">COLLECTIONS</a>

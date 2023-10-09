@@ -26,3 +26,12 @@ word-wrap: break-word
 .socials img{
     margin-left:1.4vw;
 }
+
+@media screen and (max-width:700px) {
+    .foo-title{
+        font-size: 30px;
+    }
+    .stay-conn{
+        font-size: 12px;
+    }
+}

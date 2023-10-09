@@ -9,9 +9,9 @@ import scroll4 from '../assets/scroll4.png'
 const About = () => {
     return (
 
-        <div class="row" id="About">
-            <div class="col image-scroll">
-                <div class="scroll-container">
+        <div className="row" id="About">
+            <div className="col image-scroll">
+                <div className="scroll-container">
                     <img src={scroll1} alt="scroll1" />
                     <img src={scroll2} alt="scroll2" />
                     <img src={scroll3} alt="scroll3" />
@@ -19,9 +19,9 @@ const About = () => {
                 </div>
             </div>
             <div className="col about-text">
-                <div class="about-data">
-                    <p class="abt-pistons">ABOUT PISTONS</p>
-                    <p class="detail">
+                <div className="about-data">
+                    <p className="abt-pistons">ABOUT PISTONS</p>
+                    <p className="detail">
                         Established in 1897, our beloved fountain pen haven, 'PISTONS,' has been a haven for pen enthusiasts for generations. With a century-long dedication to fine writing instruments, we've bridged tradition and modernity, offering a curated selection of vintage and contemporary fountain pens. Our little shop, nestled in the heart of town, continues to inspire a love for the art of writing, connecting past and present through the timeless elegance of ink on paper.
                     </p>
                 </div>

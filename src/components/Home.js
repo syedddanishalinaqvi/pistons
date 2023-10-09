@@ -19,52 +19,52 @@ const Home = () => {
     }, []);
     
     return (
-        <div class="home">
-            <div class="row">
-                <div class="col">
+        <div className="home">
+            <div className="row">
+                <div className="col">
                     <img src={home1} alt='home1' />
-                    <p class="circle-text" ref={circleFirstInstance}>MADE FOR YOU </p>
-                    <p class='text-on-image'>PISTONS</p>
+                    <p className="circle-text" ref={circleFirstInstance}>MADE FOR YOU </p>
+                    <p className='text-on-image'>PISTONS</p>
                 </div>
-                <div class="col">
+                <div className="col">
                     <img src={home2} alt="home2" />
-                    <div class='second-on-image d-flex flex-column'>
-                        <p class="no-wrap">YOU WERE MADE TO<br />MAKE AN IMPACT</p>
+                    <div className='second-on-image d-flex flex-column'>
+                        <p className="no-wrap">YOU WERE MADE TO<br />MAKE AN IMPACT</p>
                         <button>SHOP PENS</button>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <img src={home3} alt='home1' />
-                    <div class='third-on-image d-flex flex-column'>
+                    <div className='third-on-image d-flex flex-column'>
                         <p>MADE FOR THE BEST<br />CHANGE MAKERS.</p>
                         <button>SHOP BRANDS</button>
                     </div>
                 </div>
-                <div class="col">
+                <div className="col">
                     <img src={home4} alt="home2" />
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <img src={home5} alt='home1' />
                 </div>
-                <div class="col">
+                <div className="col">
                     <img src={home6} alt="home2" />
-                    <div class='fourth-on-image d-flex flex-column'>
+                    <div className='fourth-on-image d-flex flex-column'>
                         <p>SAVOUR THE PRESENT</p>
                         <button>SHOP MONT BLANC</button>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div className="row">
                 <div className="col">
                     <img src={home7} alt='home1' />
-                        <p class="fifth-on-image">WHERE QUALITY MEETS CLASS</p>
-                        <p class="last-text" ref={circleSecondInstance}>MADE FOR YOU </p>
-                    <p class='pistons'>PISTONS</p>
-                    <button class="shop-all">SHOP THE FALL 2023 COLLECTION</button>
+                        <p className="fifth-on-image">WHERE QUALITY MEETS class</p>
+                        <p className="last-text" ref={circleSecondInstance}>MADE FOR YOU </p>
+                    <p className='pistons'>PISTONS</p>
+                    <button className="shop-all">SHOP THE FALL 2023 COLLECTION</button>
                 </div>
                 <div className="bottom-padding">
                     

@@ -4,7 +4,7 @@ import '../css/Feedback.css'
 const Feedback = () => {
   return (
     <div >
-      <button class="fixed-button">FEEDBACK</button>
+      <button className="fixed-button">FEEDBACK</button>
     </div>
   )
 }
