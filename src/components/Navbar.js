@@ -75,7 +75,7 @@ const Navbar = () => {
                 </div>
             </div>
             {isMenuOpen && (
-                    <div classNameName="mobile-menu">
+                    <div className="mobile-menu">
                         <a href="/">NEW</a>
                         <a href="/">BRANDS</a>
                         <a href="/">COLLECTIONS</a>
