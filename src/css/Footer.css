@@ -1,0 +1,28 @@
+.Footer{
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+.foo-title{
+    color: white;
+font-size: 2.5vw;
+font-family: 'Pridi',sans-serif;
+font-weight: 400;
+padding-top: 1vw;
+word-wrap: break-word
+}
+.stay-conn{
+    color: white;
+font-size: 1.4vw;
+font-family: 'Oxygen',sans-serif;
+font-weight: 700;
+letter-spacing: 5.28px;
+word-wrap: break-word
+}
+.socials{
+    margin-bottom: 2vw;
+    margin-top: 1.4vw;
+}
+.socials img{
+    margin-left:1.4vw;
+}

@@ -1,0 +1,9 @@
+.fixed-button {
+    position: fixed;
+            top: 30%;
+            right: -31px; 
+            z-index: 1000; 
+            transform: rotate(270deg);
+            color: black;
+            cursor: pointer;
+}

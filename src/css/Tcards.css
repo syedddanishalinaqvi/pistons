@@ -1,0 +1,45 @@
+.tcard {
+  position: relative;
+}
+.tcard-img {
+  border-radius: 1vw;
+}
+.tcard-p {
+  position: absolute;
+  left: 3%;
+  right: 0%;
+  bottom: 33%;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-family: "Oxygen";
+  font-weight: 700;
+  display:block;
+}
+.tcard-p2 {
+  position: absolute;
+  left: 3.5%;
+  bottom: 33%;
+  color: white;
+  font-size: 0.8vw;
+  line-height: 1.2vw;
+  font-family: "Oxygen";
+  font-weight: 400;
+  text-align: center;
+  opacity:0;
+}
+.tcard:hover .tcard-p2 {
+    opacity:1;
+}
+.tcard:hover .tcard-p {
+    display:none;
+}
+.tcard:hover .tcard-img {
+    filter:brightness(0)
+}
+
+@media screen and (max-width:1125px){
+  .tcard{
+    width: 100%;
+  }
+}

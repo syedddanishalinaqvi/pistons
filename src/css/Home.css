@@ -1,0 +1,239 @@
+.home {
+  padding: 0;
+  margin: 0;
+}
+.col {
+  padding: 0;
+  width: 50%;
+}
+.col img {
+  width: 100%;
+}
+.row {
+  position: relative;
+  overflow-y: hidden;
+}
+.circle-text {
+  position: absolute;
+  left: 23%;
+  bottom: 25%;
+  color: white;
+  font-size: 3vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.text-on-image {
+  position: absolute;
+  left: 17%;
+  bottom: 15%;
+  color: white;
+  font-size: 3vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.second-on-image {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  left: 70%;
+  bottom: 20%;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.second-on-image button {
+  color: black;
+  font-size: 1vw;
+  height: 41px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  width: 10vw;
+  text-align: center;
+  border: 2px solid;
+  border-color: #ffecc1;
+  border-radius: 50px;
+}
+.third-on-image {
+  position: absolute;
+  color: black;
+  font-size: 2.5vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  left: 12%;
+  bottom: 15%;
+  text-wrap: wrap;
+}
+.third-on-image button {
+  color: white;
+  font-size: 0.8vw;
+  height: 41px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  width: 10vw;
+  text-align: center;
+  border: 2px solid;
+  background-color: black;
+  border-color: #ffecc1;
+  border-radius: 50px;
+}
+.fourth-on-image {
+  position: absolute;
+  color: white;
+  font-size: 2vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  left: 60%;
+  bottom: 20%;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.fourth-on-image button {
+  color: black;
+  font-size: 0.8vw;
+  height: 41px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  width: 11vw;
+  text-align: center;
+  border: 2px solid;
+  border-color: #ffecc1;
+  border-radius: 50px;
+}
+.fifth-on-image {
+  position: absolute;
+  left: 34%;
+  bottom: 70%;
+  color: white;
+  font-size: 1.5vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3vw;
+}
+.pistons {
+  position: absolute;
+  left: 42.5%;
+  bottom: 25%;
+  color: white;
+  font-size: 3vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.last-text {
+  position: absolute;
+  left: 48.5%;
+  bottom: 35%;
+  color: white;
+  font-size: 3vw;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+.shop-all {
+  color: black;
+  font-size: 0.8vw;
+  height: 41px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  width: 17vw;
+  text-align: center;
+  border: 2px solid;
+  border-color: #ffecc1;
+  border-radius: 50px;
+  position: absolute;
+  left: 40.5%;
+  bottom: 15%;
+}
+.bottom-padding{
+  display: none;
+}
+
+@media screen and (max-width:700px) {
+  .row{
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .col{
+    width: 100%;
+
+  }
+  .text-on-image{
+    font-size: 7vw;
+    bottom: 55%;
+    left:35%
+  }
+  .circle-text{
+    font-size: 7vw;
+    bottom: 60%;
+    left:50%
+  }
+  .second-on-image{
+    font-size: 4.5vw;
+    left:25%;
+    text-align: center;
+    bottom: 5%;
+  }
+  .second-on-image button{
+    font-size: 2vw;
+    width: 20vw;
+    align-self: center;
+  }
+  .third-on-image{
+    font-size: 5vw;
+    left:25%;
+    text-align: center;
+    bottom: 55%;
+  }
+  .third-on-image button{
+    font-size: 2vw;
+    width: 20vw;
+    align-self: center;
+  }
+  .fourth-on-image{
+    font-size: 6vw;
+    text-align: center;
+    left:15%;
+    text-align: center;
+    bottom:8%
+  }
+  .fourth-on-image button{
+    font-size: 2vw;
+    width: 25vw;
+    align-self: center;
+  }
+  .bottom-padding{
+    display: inline-block;
+    background-color: black;
+    height: 40vw;
+  }
+  .fifth-on-image{
+    font-size: 3vw;
+    text-align: center;
+    left:23%;
+    text-align: center;
+    bottom:38%
+  }
+  .last-text{
+    font-size: 5vw;
+    text-align: center;
+    left:48%;
+    text-align: center;
+    bottom:22%
+  }
+  .pistons{
+    font-size: 4vw;
+    text-align: center;
+    left:40%;
+    text-align: center;
+    bottom:13%
+  }
+  .shop-all{
+    font-size: 2vw;
+    width: 40vw;
+    left:29%;
+    bottom: 6%;
+    height: 5vw;
+    align-self: center;
+  }
+}

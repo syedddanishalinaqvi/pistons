@@ -1,0 +1,45 @@
+.all-testi {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the "TESTIMONIALS" heading */
+  .testimonials {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the container that holds all the cards */
+  .all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style for individual card items */
+  .all-card-items {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
+    margin: 10px;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Apply responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .all-card-items {
+      flex: 0 0 calc(50% - 20px); /* Adjust for two columns on smaller screens */
+    }
+    .testimonials {
+      font-size: 5vw;
+    }
+  }
+  
+  /* Apply responsive styles for even smaller screens */
+  @media screen and (max-width: 576px) {
+    .all-card-items {
+      flex: 0 0 calc(100% - 20px); /* Full width on the smallest screens */
+    }
+    .testimonials {
+      font-size: 5vw;
+    }
+  }
